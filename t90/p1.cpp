@@ -36,7 +36,7 @@ int main(){
   // left以上で全てを分けられる
   // right以上では分けられない
   long long left = -1, right = L+1;
-  // rightとleftが重なれば終了
+  // rightとleftの差が1になれば終了
   while(right - left > 1){
     long long mid = (left + right)/2;
     // mid以上で分けることが可能ならleftに代入
